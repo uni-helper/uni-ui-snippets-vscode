@@ -13,7 +13,7 @@ let readme = `# @uni-helper/uni-ui-snippets-vscode
 
 [![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
 
-[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-ui-snippets-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-ui-snippets-vscode.png)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
 
 [![OpenVSX](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=OpenVSX&query=%24.version&url=https%3A%2F%2Fopen-vsx.org%2Fapi%2Funi-helper%2Funi-ui-snippets-vscode)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
 
