@@ -1,5 +1,9 @@
 # 改动日志
 
+## 0.6.6
+
+- 修复插件配置
+
 ## 0.6.5
 
 - 切换到 [uni-helper](https://github.com/uni-helper) 组织下
