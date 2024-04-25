@@ -13,11 +13,13 @@ const htmlObject = JSON.parse(
 
 let readme = `# @uni-helper/uni-ui-snippets-vscode
 
-[![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
+<!-- ⚠️ 该文件由脚本生成，请勿手动修改 ⚠️ -->
 
-[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-ui-snippets-vscode.png)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+[![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode?label=License&color=brightgreen)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
 
-[![OpenVSX](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=OpenVSX&query=%24.version&url=https%3A%2F%2Fopen-vsx.org%2Fapi%2Funi-helper%2Funi-ui-snippets-vscode)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/uni-helper.uni-ui-snippets-vscode?label=VS%20Marketplace&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+
+[![Open VSX Version](https://img.shields.io/open-vsx/v/uni-helper/uni-ui-snippets-vscode?label=Open%20VSX&color=brightgreen)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
 
 [改动日志](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/CHANGELOG.md)
 

@@ -1,12 +1,16 @@
 # @uni-helper/uni-ui-snippets-vscode
 
-[![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
+<!-- ⚠️ 该文件由脚本生成，请勿手动修改 ⚠️ -->
 
-[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-ui-snippets-vscode.png)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+[![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode?label=License&color=brightgreen)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
 
-[![OpenVSX](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=OpenVSX&query=%24.version&url=https%3A%2F%2Fopen-vsx.org%2Fapi%2Funi-helper%2Funi-ui-snippets-vscode)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/uni-helper.uni-ui-snippets-vscode?label=VS%20Marketplace&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+
+[![Open VSX Version](https://img.shields.io/open-vsx/v/uni-helper/uni-ui-snippets-vscode?label=Open%20VSX&color=brightgreen)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
 
 [改动日志](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/CHANGELOG.md)
+
+想让 `uni-app` 开发变得更直观、高效？想要更好的 `uni-app` 开发体验？不妨看看 [uni-helper 主页](https://uni-helper.js.org) 和 [uni-helper GitHub Organization](https://github.com/uni-helper)！
 
 ## 插件特性
 
@@ -79,7 +83,3 @@
 |`<uni-tag>`|`uni-tag`, `<uni-tag>`, `UniTag`, `<UniTag>`|uni-ui 标签。更多信息查看 <https://uniapp.dcloud.io/component/uniui/uni-tag>。|
 |`<uni-title>`|`uni-title`, `<uni-title>`, `UniTitle`, `<UniTitle>`|uni-ui 标题。更多信息查看 <https://uniapp.dcloud.io/component/uniui/uni-title>。|
 |`<uni-transition>`|`uni-transition`, `<uni-transition>`, `UniTransition`, `<UniTransition>`|uni-ui 过渡动画。更多信息查看 <https://uniapp.dcloud.io/component/uniui/uni-transition>。|
-
-## 额外推荐
-
-请查看 [uni-helper 插件说明](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)。
