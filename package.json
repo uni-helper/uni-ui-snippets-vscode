@@ -31,7 +31,9 @@
   "publisher": "uni-helper",
   "type": "module",
   "files": [
-    "*.vsix"
+    "snippets",
+    "LICENSE",
+    "uni-helper.png"
   ],
   "scripts": {
     "fix": "ultracite fix",
