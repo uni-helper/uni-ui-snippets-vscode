@@ -10,6 +10,30 @@
     ],
     "description": "uni-ui 徽标/标记/数字角标/徽章，一般出现在通知图标或头像的右上角，用于显示需要处理的消息条数。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-badge>。"
   },
+  "uni-ui breadcrumb": {
+    "prefix": [
+      "uni-breadcrumb",
+      "<uni-breadcrumb>",
+      "UniBreadcrumb",
+      "<UniBreadcrumb>"
+    ],
+    "body": [
+      "<uni-breadcrumb separator=\"${1:/}\">",
+      "\t<uni-breadcrumb-item :to=\"$2\">$3</uni-breadcrumb-item>",
+      "</uni-breadcrumb>$0"
+    ],
+    "description": "uni-ui 面包屑，显示当前页面的路径，快速返回之前的任意页面。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。"
+  },
+  "uni-ui breadcrumb-item": {
+    "prefix": [
+      "uni-breadcrumb-item",
+      "<uni-breadcrumb-item>",
+      "UniBreadcrumbItem",
+      "<UniBreadcrumbItem>"
+    ],
+    "body": ["<uni-breadcrumb-item :to=\"$1\">$2</uni-breadcrumb-item>$0"],
+    "description": "uni-ui 面包屑项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。"
+  },
   "uni-ui calendar": {
     "prefix": [
       "uni-calendar",
@@ -108,6 +132,23 @@
       "/>$0"
     ],
     "description": "uni-ui 数据选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-checkbox>。"
+  },
+  "uni-ui data-select": {
+    "prefix": [
+      "uni-data-select",
+      "<uni-data-select>",
+      "UniDataSelect",
+      "<UniDataSelect>"
+    ],
+    "body": [
+      "<uni-data-select",
+      "\tv-model=\"$1\"",
+      "\t:localdata=\"$2\"",
+      "\tplaceholder=\"$3\"",
+      "\t@change=\"$4\"",
+      "/>$0"
+    ],
+    "description": "uni-ui 下拉选择框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-select>。"
   },
   "uni-ui data-picker": {
     "prefix": [
@@ -504,6 +545,18 @@
     "body": ["<uni-col>$1</uni-col>$0"],
     "description": "uni-ui 布局列。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。"
   },
+  "uni-ui section": {
+    "prefix": ["uni-section", "<uni-section>", "UniSection", "<UniSection>"],
+    "body": [
+      "<uni-section",
+      "\ttitle=\"$1\"",
+      "\ttype=\"${2|line,circle,square|}\"",
+      ">",
+      "\t$3",
+      "</uni-section>$0"
+    ],
+    "description": "uni-ui 标题栏，一般用于文章、列表详情等标题展示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-section>。"
+  },
   "uni-ui search-bar": {
     "prefix": [
       "uni-search-bar",
@@ -635,6 +688,18 @@
     "prefix": ["uni-title", "<uni-title>", "UniTitle", "<UniTitle>"],
     "body": ["<uni-title title=\"$1\" />$0"],
     "description": "uni-ui 标题。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-title>。"
+  },
+  "uni-ui tooltip": {
+    "prefix": ["uni-tooltip", "<uni-tooltip>", "UniTooltip", "<UniTooltip>"],
+    "body": [
+      "<uni-tooltip",
+      "\tcontent=\"$1\"",
+      "\tplacement=\"${2|left,right,top,bottom|}\"",
+      ">",
+      "\t$3",
+      "</uni-tooltip>$0"
+    ],
+    "description": "uni-ui 文字提示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tooltip>。"
   },
   "uni-ui transition": {
     "prefix": [
