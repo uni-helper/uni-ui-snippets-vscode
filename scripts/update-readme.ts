@@ -1,14 +1,14 @@
-import { readFileSync, writeFileSync } from 'node:fs';
-import { resolve, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { simpleGit } from 'simple-git';
+import { readFileSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import { simpleGit } from "simple-git";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = resolve(__dirname, '..');
-const readmePath = resolve(root, 'README.md');
+const root = resolve(__dirname, "..");
+const readmePath = resolve(root, "README.md");
 
 const htmlObject = JSON.parse(
-  readFileSync(resolve(root, 'snippets', 'vue-html.json'), { encoding: 'utf8' }),
+  readFileSync(resolve(root, "snippets", "vue-html.json"), { encoding: "utf8" })
 );
 
 let readme = `# @uni-helper/uni-ui-snippets-vscode
@@ -42,32 +42,32 @@ let readme = `# @uni-helper/uni-ui-snippets-vscode
 `;
 
 // 添加 HTML
-readme += '## HTML\n\n';
-readme += '|API|Prefix|Description|\n|-|-|-|\n';
+readme += "## HTML\n\n";
+readme += "|API|Prefix|Description|\n|-|-|-|\n";
 for (const key of Object.keys(htmlObject)) {
   const { prefix, body, description } = htmlObject[key];
-  let newPrefix = '';
+  let newPrefix = "";
   for (const text of prefix) {
     newPrefix += `\`${text}\`, `;
   }
   newPrefix = newPrefix.slice(0, -2);
-  let newBody = '';
+  let newBody = "";
   newBody = `\`${body[0]
-    .replaceAll(/\b .*[/>]/g, '')
-    .replaceAll(/\(?\([\w "$'(),/:=>{|}]+/g, '()')
-    .replaceAll(/\$\d[\w/<>-]*/g, '')}`;
-  if (newBody.includes('/* ') && !newBody.includes(' */')) {
-    newBody += ' */`';
-  } else if (newBody.includes('<!-- ') && !newBody.includes(' -->')) {
-    newBody += ' -->`';
-  } else if (newBody.includes('<') && !newBody.includes('>')) {
-    newBody += '>`';
+    .replaceAll(/\b .*[/>]/g, "")
+    .replaceAll(/\(?\([\w "$'(),/:=>{|}]+/g, "()")
+    .replaceAll(/\$\d[\w/<>-]*/g, "")}`;
+  if (newBody.includes("/* ") && !newBody.includes(" */")) {
+    newBody += " */`";
+  } else if (newBody.includes("<!-- ") && !newBody.includes(" -->")) {
+    newBody += " -->`";
+  } else if (newBody.includes("<") && !newBody.includes(">")) {
+    newBody += ">`";
   } else {
-    newBody += '`';
+    newBody += "`";
   }
   readme += `|${newBody}|${newPrefix}|${description}|\n`;
 }
-readme += '\n';
+readme += "\n";
 
 writeFileSync(readmePath, readme);
 
