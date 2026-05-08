@@ -31,6 +31,8 @@
 |API|Prefix|Description|
 |-|-|-|
 |`<uni-badge>`|`uni-badge`, `<uni-badge>`, `UniBadge`, `<UniBadge>`|uni-ui 徽标/标记/数字角标/徽章，一般出现在通知图标或头像的右上角，用于显示需要处理的消息条数。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-badge>。|
+|`<uni-breadcrumb>`|`uni-breadcrumb`, `<uni-breadcrumb>`, `UniBreadcrumb`, `<UniBreadcrumb>`|uni-ui 面包屑，显示当前页面的路径，快速返回之前的任意页面。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。|
+|`<uni-breadcrumb-item>`|`uni-breadcrumb-item`, `<uni-breadcrumb-item>`, `UniBreadcrumbItem`, `<UniBreadcrumbItem>`|uni-ui 面包屑项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。|
 |`<uni-calendar>`|`uni-calendar`, `<uni-calendar>`, `UniCalendar`, `<UniCalendar>`|uni-ui 日历，当数据是日期或按照日期划分时使用，如日程、课表、价格日历、农历等。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-calendar>。|
 |`<uni-card>`|`uni-card`, `<uni-card>`, `UniCard`, `<UniCard>`|uni-ui 卡片，可承载文字、列表、图片、段落，常用于概览。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-card>。|
 |`<uni-collapse>`|`uni-collapse`, `<uni-collapse>`, `UniCollapse`, `<UniCollapse>`|uni-ui 折叠面板，对复杂区域进行分组和隐藏，保持页面的整洁。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-collapse>。|
@@ -38,6 +40,7 @@
 |`<uni-combox>`|`uni-combox`, `<uni-combox>`, `UniCombox`, `<UniCombox>`|uni-ui 组合框，一般用于可选择也可输入的表单项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-combox>。|
 |`<uni-countdown>`|`uni-countdown`, `<uni-countdown>`, `UniCountdown`, `<UniCountdown>`|uni-ui 倒计时。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-countdown>。|
 |`<uni-data-checkbox>`|`uni-data-checkbox`, `<uni-data-checkbox>`, `UniDataCheckbox`, `<UniDataCheckbox>`|uni-ui 数据选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-checkbox>。|
+|`<uni-data-select>`|`uni-data-select`, `<uni-data-select>`, `UniDataSelect`, `<UniDataSelect>`|uni-ui 下拉选择框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-select>。|
 |`<uni-data-picker>`|`uni-data-picker`, `<uni-data-picker>`, `UniDataPicker`, `<UniDataPicker>`|uni-ui 级联选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-picker>。|
 |`<uni-dateformat>`|`uni-dateformat`, `<uni-dateformat>`, `UniDateformat`, `<UniDateformat>`|uni-ui 日期格式化。请考虑使用 [dayjs](https://dayjs.gitee.io/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。|
 |`<uni-datetime-picker>`|`uni-datetime-picker`, `<uni-datetime-picker>`, `UniDatetimePicker`, `<UniDatetimePicker>`|uni-ui 日期时间选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-datetime-picker>。|
@@ -70,6 +73,7 @@
 |`<uni-rate>`|`uni-rate`, `<uni-rate>`, `UniRate`, `<UniRate>`|uni-ui 评分。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-rate>。|
 |`<uni-row>`|`uni-row`, `<uni-row>`, `UniRow`, `<UniRow>`|uni-ui 布局行。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。|
 |`<uni-col>`|`uni-col`, `<uni-col>`, `UniCol`, `<UniCol>`|uni-ui 布局列。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。|
+|`<uni-section>`|`uni-section`, `<uni-section>`, `UniSection`, `<UniSection>`|uni-ui 标题栏，一般用于文章、列表详情等标题展示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-section>。|
 |`<uni-search-bar>`|`uni-search-bar`, `<uni-search-bar>`, `UniSearchBar`, `<UniSearchBar>`|uni-ui 搜索栏。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-search-bar>。|
 |`<uni-segmented-control>`|`uni-segmented-control`, `<uni-segmented-control>`, `UniSegmentedControl`, `<UniSegmentedControl>`|uni-ui 分段器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-segmented-control>。|
 |`<uni-steps>`|`uni-steps`, `<uni-steps>`, `UniSteps`, `<UniSteps>`|uni-ui 步骤条。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-steps>。|
@@ -82,4 +86,6 @@
 |`<uni-td>`|`uni-td`, `<uni-td>`, `UniTd`, `<UniTd>`|uni-table 表格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。|
 |`<uni-tag>`|`uni-tag`, `<uni-tag>`, `UniTag`, `<UniTag>`|uni-ui 标签。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tag>。|
 |`<uni-title>`|`uni-title`, `<uni-title>`, `UniTitle`, `<UniTitle>`|uni-ui 标题。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-title>。|
+|`<uni-tooltip>`|`uni-tooltip`, `<uni-tooltip>`, `UniTooltip`, `<UniTooltip>`|uni-ui 文字提示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tooltip>。|
 |`<uni-transition>`|`uni-transition`, `<uni-transition>`, `UniTransition`, `<UniTransition>`|uni-ui 过渡动画。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-transition>。|
+
