@@ -1,7 +1,7 @@
 {
   "name": "uni-ui-snippets-vscode",
   "displayName": "uni-ui-snippets",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "uni-ui 基本能力代码片段。",
   "categories": [
     "Snippets"
