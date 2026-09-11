@@ -1,12 +1,14 @@
 {
-  "extends": "@tsconfig/node24",
+  "extends": "@tsconfig/node26",
   "compilerOptions": {
     "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "target": "ESNext",
     "resolveJsonModule": true,
-    "types": ["node"]
+    "types": ["node"],
+    "strict": true,
+    "strictNullChecks": true
   },
   "include": [
     "**/*.js",
