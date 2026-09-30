@@ -1,12 +1,22 @@
 # @uni-helper/uni-ui-snippets-vscode
 
-<!-- ⚠️ 该文件由脚本生成，请勿手动修改 ⚠️ -->
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/uni-helper/uni-ui-snippets-vscode@main/logo.png" alt="logo" width="256" height="256" />
+</p>
 
-[![License](https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode?label=License&color=brightgreen)](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE)
+<p align="center">
+  <a href="https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/uni-helper/uni-ui-snippets-vscode?labelColor=005947&color=eee&style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/uni-helper/uni-ui-snippets-vscode/stargazers"><img src="https://img.shields.io/github/stars/uni-helper/uni-ui-snippets-vscode?labelColor=005947&color=eee&style=for-the-badge" alt="GitHub Stars"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode"><img src="https://vsmarketplacebadges.dev/version-short/uni-helper.uni-ui-snippets-vscode.svg?labelColor=005947&color=eee&style=for-the-badge" alt="VSCode version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode"><img src="https://vsmarketplacebadges.dev/downloads-short/uni-helper.uni-ui-snippets-vscode.svg?labelColor=005947&color=eee&style=for-the-badge" alt="VSCode downloads"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/ModyQyW"><img src="https://img.shields.io/badge/Author%20%26%20Maintainer-ModyQyW-blue?style=for-the-badge" alt="Author & Maintainer"></a>
+</p>
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/uni-helper.uni-ui-snippets-vscode?label=VS%20Marketplace&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+为 [uni-app](https://uniapp.dcloud.net.cn/) 的 [uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui) 提供基本能力代码片段。
 
-[![Open VSX Version](https://img.shields.io/open-vsx/v/uni-helper/uni-ui-snippets-vscode?label=Open%20VSX&color=brightgreen)](https://open-vsx.org/extension/uni-helper/uni-ui-snippets-vscode)
+> **请考虑持续[赞助](https://github.com/ModyQyW/sponsors)以维持该项目的持续健康发展，非常感谢！🙏**
 
 [改动日志](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/CHANGELOG.md)
 
@@ -19,8 +29,6 @@
 - 参考 [Vue.js 2 风格指南](https://v2.cn.vuejs.org/v2/style-guide/) 和 [Vue.js 3 风格指南](https://cn.vuejs.org/style-guide/)
 
 **插件和文档的冲突之处，请以文档为准。**
-
-插件源代码在 [uni-helper/uni-ui-snippets-vscode](https://github.com/uni-helper/uni-ui-snippets-vscode)。欢迎提交 ISSUE 和 PR 改进本插件。
 
 ## 使用
 
@@ -89,3 +97,10 @@
 |`<uni-tooltip>`|`uni-tooltip`, `<uni-tooltip>`, `UniTooltip`, `<UniTooltip>`|uni-ui 文字提示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tooltip>。|
 |`<uni-transition>`|`uni-transition`, `<uni-transition>`, `UniTransition`, `<UniTransition>`|uni-ui 过渡动画。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-transition>。|
 
+## 参与贡献
+
+欢迎通过 Issue 或 Pull Request 参与改进本项目。开始前请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)，了解项目结构、本地开发流程、测试方式与提交规范。
+
+## 许可证
+
+[MIT](https://github.com/uni-helper/uni-ui-snippets-vscode/blob/main/LICENSE) © 2020-present [uni-helper](https://github.com/uni-helper) & Collaborators
