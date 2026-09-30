@@ -42,7 +42,7 @@
 |`<uni-data-checkbox>`|`uni-data-checkbox`, `<uni-data-checkbox>`, `UniDataCheckbox`, `<UniDataCheckbox>`|uni-ui 数据选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-checkbox>。|
 |`<uni-data-select>`|`uni-data-select`, `<uni-data-select>`, `UniDataSelect`, `<UniDataSelect>`|uni-ui 下拉选择框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-select>。|
 |`<uni-data-picker>`|`uni-data-picker`, `<uni-data-picker>`, `UniDataPicker`, `<UniDataPicker>`|uni-ui 级联选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-picker>。|
-|`<uni-dateformat>`|`uni-dateformat`, `<uni-dateformat>`, `UniDateformat`, `<UniDateformat>`|uni-ui 日期格式化。请考虑使用 [dayjs](https://dayjs.gitee.io/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。|
+|`<uni-dateformat>`|`uni-dateformat`, `<uni-dateformat>`, `UniDateformat`, `<UniDateformat>`|uni-ui 日期格式化。请考虑使用 [dayjs](https://day.js.org/docs/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。|
 |`<uni-datetime-picker>`|`uni-datetime-picker`, `<uni-datetime-picker>`, `UniDatetimePicker`, `<UniDatetimePicker>`|uni-ui 日期时间选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-datetime-picker>。|
 |`<uni-drawer>`|`uni-drawer`, `<uni-drawer>`, `UniDrawer`, `<UniDrawer>`|uni-ui 抽屉，屏幕边缘滑出的浮层面板，用户在抽屉内操作时不必离开当前任务，操作完成后，可以平滑地回到原任务。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-drawer>。|
 |`<uni-easyinput>`|`uni-easyinput`, `<uni-easyinput>`, `UniEasyinput`, `<UniEasyinput>`|uni-ui 增强输入框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-easyinput>。|

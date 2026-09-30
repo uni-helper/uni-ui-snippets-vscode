@@ -181,7 +181,7 @@
       "\tformat=\"${3:yyyy/MM/dd hh:mm:ss}\"",
       "/>$0"
     ],
-    "description": "uni-ui 日期格式化。请考虑使用 [dayjs](https://dayjs.gitee.io/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。"
+    "description": "uni-ui 日期格式化。请考虑使用 [dayjs](https://day.js.org/docs/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。"
   },
   "uni-ui datetime-picker": {
     "prefix": [
