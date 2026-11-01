@@ -8,7 +8,7 @@
       "\tsize=\"${3|normal,small|}\"",
       "/>$0"
     ],
-    "description": "uni-ui 徽标/标记/数字角标/徽章，一般出现在通知图标或头像的右上角，用于显示需要处理的消息条数。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-badge>。"
+    "description": "uni-ui 数字角标，一般配合列表、宫格等控件使用，用于数量提示，默认实心灰色背景。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-badge>。"
   },
   "uni-ui breadcrumb": {
     "prefix": [
@@ -32,7 +32,7 @@
       "<UniBreadcrumbItem>"
     ],
     "body": ["<uni-breadcrumb-item :to=\"$1\">$2</uni-breadcrumb-item>$0"],
-    "description": "uni-ui 面包屑项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。"
+    "description": "uni-ui 面包屑项，表示路径中的一级，可设置点击后跳转的页面。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-breadcrumb>。"
   },
   "uni-ui calendar": {
     "prefix": [
@@ -42,7 +42,7 @@
       "<UniCalendar>"
     ],
     "body": ["<uni-calendar @change=\"$1\" />$0"],
-    "description": "uni-ui 日历，当数据是日期或按照日期划分时使用，如日程、课表、价格日历、农历等。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-calendar>。"
+    "description": "uni-ui 日历，可查看日期、选择日期范围、在日期上打点，常用于酒店预订、机票选择、打卡等场景。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-calendar>。"
   },
   "uni-ui card": {
     "prefix": ["uni-card", "<uni-card>", "UniCard", "<UniCard>"],
@@ -54,7 +54,7 @@
       "\t$3",
       "</uni-card>$0"
     ],
-    "description": "uni-ui 卡片，可承载文字、列表、图片、段落，常用于概览。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-card>。"
+    "description": "uni-ui 卡片，用于显示完整独立的一段信息，如文章的预览图、作者信息、时间等，常作为详情页的入口。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-card>。"
   },
   "uni-ui collapse": {
     "prefix": [
@@ -70,7 +70,7 @@
       "\t</uni-collapse-item>",
       "</uni-collapse>$0"
     ],
-    "description": "uni-ui 折叠面板，对复杂区域进行分组和隐藏，保持页面的整洁。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-collapse>。"
+    "description": "uni-ui 折叠面板，折叠或展开过长的内容，常用于多内容的分类项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-collapse>。"
   },
   "uni-ui collapse-item": {
     "prefix": [
@@ -84,7 +84,7 @@
       "\t$2",
       "</uni-collapse-item>$0"
     ],
-    "description": "uni-ui 折叠面板项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-collapse>。"
+    "description": "uni-ui 折叠面板项，通过 title 属性设置面板标题，点击展开或折叠。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-collapse>。"
   },
   "uni-ui combox": {
     "prefix": ["uni-combox", "<uni-combox>", "UniCombox", "<UniCombox>"],
@@ -96,7 +96,7 @@
       "\t:candidates=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 组合框，一般用于可选择也可输入的表单项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-combox>。"
+    "description": "uni-ui 组合框，一般用于可以选择也可以输入的表单项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-combox>。"
   },
   "uni-ui countdown": {
     "prefix": [
@@ -114,7 +114,7 @@
       "\t@timeup=\"$5\"",
       "/>$0"
     ],
-    "description": "uni-ui 倒计时。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-countdown>。"
+    "description": "uni-ui 倒计时，按天、时、分、秒展示剩余时间。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-countdown>。"
   },
   "uni-ui data-checkbox": {
     "prefix": [
@@ -131,7 +131,7 @@
       "\t@change=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 数据选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-checkbox>。"
+    "description": "uni-ui 数据选择器，对基础组件 checkbox 的封装，支持单选、多选，以及列表、按钮、标签等显示模式。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-checkbox>。"
   },
   "uni-ui data-select": {
     "prefix": [
@@ -148,7 +148,7 @@
       "\t@change=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 下拉选择框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-select>。"
+    "description": "uni-ui 下拉选择框，选项过多时用下拉菜单展示并选择内容。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-select>。"
   },
   "uni-ui data-picker": {
     "prefix": [
@@ -165,7 +165,7 @@
       "\t@change=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 级联选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-picker>。"
+    "description": "uni-ui 级联选择器，支持单列和多列级联，适用于地址选择、分类选择等场景。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-data-picker>。"
   },
   "uni-ui dateformat": {
     "prefix": [
@@ -181,7 +181,7 @@
       "\tformat=\"${3:yyyy/MM/dd hh:mm:ss}\"",
       "/>$0"
     ],
-    "description": "uni-ui 日期格式化。请考虑使用 [dayjs](https://day.js.org/docs/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。"
+    "description": "uni-ui 日期格式化，可按阈值把时间显示成「刚刚」「几分钟前」等友好文案，请考虑使用 [dayjs](https://day.js.org/docs/zh-CN/)。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-dateformat>。"
   },
   "uni-ui datetime-picker": {
     "prefix": [
@@ -196,12 +196,12 @@
       "\t@change=\"$2\"",
       "/>$0"
     ],
-    "description": "uni-ui 日期时间选择器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-datetime-picker>。"
+    "description": "uni-ui 日期时间选择器，支持日期、日期时间及范围选择，可输入输出时间戳。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-datetime-picker>。"
   },
   "uni-ui drawer": {
     "prefix": ["uni-drawer", "<uni-drawer>", "UniDrawer", "<UniDrawer>"],
     "body": ["<uni-drawer ref=\"${1:drawer}\" />$0"],
-    "description": "uni-ui 抽屉，屏幕边缘滑出的浮层面板，用户在抽屉内操作时不必离开当前任务，操作完成后，可以平滑地回到原任务。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-drawer>。"
+    "description": "uni-ui 抽屉，从屏幕边缘滑出的侧滑菜单。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-drawer>。"
   },
   "uni-ui easyinput": {
     "prefix": [
@@ -218,7 +218,7 @@
       "\t@confirm=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 增强输入框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-easyinput>。"
+    "description": "uni-ui 增强输入框，为配合表单组件设计，内置边框、图标和清除按钮。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-easyinput>。"
   },
   "uni-ui fab": {
     "prefix": ["uni-fab", "<uni-fab>", "UniFab", "<UniFab>"],
@@ -229,15 +229,15 @@
       "\tdirection=\"${3|horizontal,vertical|}\"",
       "\t:content=\"$4\"",
       "\t@trigger=\"$5\"",
-      "\t@fab-click=\"$6\"",
+      "\t@fabClick=\"$6\"",
       "/>$0"
     ],
-    "description": "uni-ui 悬浮按钮。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-fab>。"
+    "description": "uni-ui 悬浮按钮，点击可展开一个图形按钮菜单。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-fab>。"
   },
   "uni-ui fav": {
     "prefix": ["uni-fav", "<uni-fav>", "UniFav", "<UniFav>"],
     "body": ["<uni-fav", "\t:checked=\"$1\"", "\t@click=\"$2\"", "/>$0"],
-    "description": "uni-ui 收藏按钮。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-fav>。"
+    "description": "uni-ui 收藏按钮，可点击切换选中和不选中的状态。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-fav>。"
   },
   "uni-ui file-picker": {
     "prefix": [
@@ -254,7 +254,7 @@
       "\tfile-mediatype=\"${4|image,video,all|}\"",
       "/>$0"
     ],
-    "description": "uni-ui 文件选择上传。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-file-picker>。"
+    "description": "uni-ui 文件选择上传，可选择图片、视频等任意文件并上传到绑定的服务空间。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-file-picker>。"
   },
   "uni-ui forms": {
     "prefix": ["uni-forms", "<uni-forms>", "UniForms", "<UniForms>"],
@@ -274,7 +274,7 @@
       "\t<button @click=\"$8\">${9:重置}</button>",
       "</uni-forms>$0"
     ],
-    "description": "uni-ui 表单。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-forms>。"
+    "description": "uni-ui 表单，对原生 form 的封装，内置表单校验，配合 uni-forms-item 使用。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-forms>。"
   },
   "uni-ui forms-item": {
     "prefix": [
@@ -292,7 +292,7 @@
       "\t$3",
       "</uni-forms-item>$0"
     ],
-    "description": "uni-ui 表单项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-forms>。"
+    "description": "uni-ui 表单项，包裹单个输入控件并显示校验错误信息。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-forms>。"
   },
   "uni-ui goods-nav": {
     "prefix": [
@@ -306,10 +306,10 @@
       "\t:options=\"$1\"",
       "\t:button-group=\"$2\"",
       "\t@click=\"$3\"",
-      "\t@button-click=\"$4\"",
+      "\t@buttonClick=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 商品导航。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-goods-nav>。"
+    "description": "uni-ui 商品导航，用于商品页的加入购物车、立即购买等操作。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-goods-nav>。"
   },
   "uni-ui grid": {
     "prefix": ["uni-grid", "<uni-grid>", "UniGrid", "<UniGrid>"],
@@ -321,7 +321,7 @@
       "\t<uni-grid-item>$3</uni-grid-item>",
       "</uni-grid>$0"
     ],
-    "description": "uni-ui 宫格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-grid>。"
+    "description": "uni-ui 宫格，把内容按指定的列数分格展示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-grid>。"
   },
   "uni-ui grid-item": {
     "prefix": [
@@ -331,7 +331,7 @@
       "<UniGridItem>"
     ],
     "body": ["<uni-grid-item>$1</uni-grid-item>$0"],
-    "description": "uni-ui 宫格项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-grid>。"
+    "description": "uni-ui 宫格项，放在宫格里表示一个格子。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-grid>。"
   },
   "uni-ui group": {
     "prefix": ["uni-group", "<uni-group>", "UniGroup", "<UniGroup>"],
@@ -343,18 +343,18 @@
       "\t$3",
       "</uni-group>$0"
     ],
-    "description": "uni-ui 分组。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-group>。"
+    "description": "uni-ui 分组，把组件分组并添加间隔，形成明显的区块。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-group>。"
   },
   "uni-ui icons": {
     "prefix": ["uni-icons", "<uni-icons>", "UniIcons", "<UniIcons>"],
     "body": [
       "<uni-icons",
-      "\ttype=\"${1|color,wallet,settings-filled,auth-filled,shop-filled,staff-filled,vip-filled,plus-filled,folder-add-filled,color-filled,tune-filled,calendar-filled,notification-filled,wallet-filled,medal-filled,gift-filled,fire-filled,refreshempty,location-filled,person-filled,personadd-filled,back,forward,arrow-right,arrow-left,arrow-up,arrow-down,bottom,right,top,left,eye,eye-filled,eye-slash,eye-slash-filled,info-filled,reload,micoff-filled,map-pin-ellipse,map-pin,location,starhalf,star,star-filled,calendar,fire,medal,font,gift,link,notification,staff,vip,folder-add,tune,auth,person,email-filled,phone-filled,phone,email,personadd,chatboxes-filled,contact,chatbubble-filled,contact-filled,chatboxes,chatbubble,upload-filled,upload,weixin,compose,qq,download-filled,pyq,sound,trash-filled,sound-filled,trash,videocam-filled,spinner-cycle,weibo,videocam,download,help,navigate-filled,plusempty,smallcircle,minus-filled,micoff,closeempty,clear,navigate,minus,image,mic,paperplane,close,help-filled,paperplane-filled,plus,mic-filled,image-filled,locked-filled,info,locked,camera-filled,chat-filled,camera,circle,checkmarkempty,chat,circle-filled,flag,flag-filled,gear-filled,home,home-filled,gear,smallcircle-filled,map-filled,map,refresh-filled,refresh,cloud-upload,cloud-download-filled,cloud-download,cloud-upload-filled,redo,images-filled,undo-filled,more,more-filled,undo,images,paperclip,settings,search,redo-filled,list,mail-open-filled,hand-down-filled,hand-down,hand-up-filled,hand-up,heart-filled,mail-open,heart,loop,pulldown,scan,bars,cart-filled,checkbox,checkbox-filled,shop,headphones,cart|}\"",
+      "\ttype=\"${1|color,wallet,settings-filled,auth-filled,shop-filled,staff-filled,vip-filled,plus-filled,folder-add-filled,color-filled,tune-filled,calendar-filled,notification-filled,wallet-filled,medal-filled,gift-filled,fire-filled,refreshempty,location-filled,person-filled,personadd-filled,back,forward,arrow-right,arrow-left,arrow-up,arrow-down,bottom,right,top,left,up,down,eye,eye-filled,eye-slash,eye-slash-filled,info-filled,reload,micoff-filled,map-pin-ellipse,map-pin,location,starhalf,star,star-filled,calendar,fire,medal,font,gift,link,notification,staff,vip,folder-add,tune,auth,person,email-filled,phone-filled,phone,email,personadd,chatboxes-filled,contact,chatbubble-filled,contact-filled,chatboxes,chatbubble,upload-filled,upload,weixin,compose,qq,download-filled,pyq,sound,trash-filled,sound-filled,trash,videocam-filled,spinner-cycle,weibo,videocam,download,help,navigate-filled,plusempty,smallcircle,minus-filled,micoff,closeempty,clear,navigate,minus,image,mic,paperplane,close,help-filled,paperplane-filled,plus,mic-filled,image-filled,locked-filled,info,locked,camera-filled,chat-filled,camera,circle,checkmarkempty,chat,circle-filled,flag,flag-filled,gear-filled,home,home-filled,gear,smallcircle-filled,map-filled,map,refresh-filled,refresh,cloud-upload,cloud-download-filled,cloud-download,cloud-upload-filled,redo,images-filled,undo-filled,more,more-filled,undo,images,paperclip,settings,search,redo-filled,list,mail-open-filled,hand-down-filled,hand-down,hand-up-filled,hand-up,heart-filled,mail-open,heart,loop,pulldown,scan,bars,cart-filled,checkbox,checkbox-filled,shop,headphones,cart|}\"",
       "\tcolor=\"$2\"",
       "\tsize=\"${3:24}\"",
       "/>$0"
     ],
-    "description": "uni-ui 图标。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-icons>。"
+    "description": "uni-ui 图标，通过 type、size、color 配置图标。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-icons>。"
   },
   "uni-ui indexed-list": {
     "prefix": [
@@ -369,12 +369,12 @@
       "\t@click=\"$2\"",
       "/>$0"
     ],
-    "description": "uni-ui 索引列表。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-indexed-list>。"
+    "description": "uni-ui 索引列表，按字母索引分组展示列表，常用于通讯录。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-indexed-list>。"
   },
   "uni-ui link": {
     "prefix": ["uni-link", "<uni-link>", "UniLink", "<UniLink>"],
     "body": ["<uni-link", "\thref=\"$1\"", "\t:text=\"$2\"", "/>$0"],
-    "description": "uni-ui 超链接。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-link>。"
+    "description": "uni-ui 超链接，小程序内复制 URL，App 内打开外部浏览器，H5 打开新网页。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-link>。"
   },
   "uni-ui list": {
     "prefix": ["uni-list", "<uni-list>", "UniList", "<UniList>"],
@@ -388,7 +388,7 @@
       "\t</uni-list-item>",
       "</uni-list>$0"
     ],
-    "description": "uni-ui 列表。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
+    "description": "uni-ui 列表，包含基本列表样式、可扩展插槽和长列表性能优化。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
   },
   "uni-ui list-chat": {
     "prefix": [
@@ -405,7 +405,7 @@
       "\t$3",
       "</uni-list-chat>$0"
     ],
-    "description": "uni-ui 聊天列表项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
+    "description": "uni-ui 聊天列表项，展示一条会话的头像、标题、时间和未读数。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
   },
   "uni-ui list-item": {
     "prefix": [
@@ -422,7 +422,7 @@
       "\t$3",
       "</uni-list-item>$0"
     ],
-    "description": "uni-ui 列表项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
+    "description": "uni-ui 列表项，代表列表中的一行，可通过插槽自定义内容。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-list>。"
   },
   "uni-ui load-more": {
     "prefix": [
@@ -432,12 +432,12 @@
       "<UniLoadMore>"
     ],
     "body": ["<uni-load-more :status=\"${1|more,loading,noMore|}\" />$0"],
-    "description": "uni-ui 加载更多。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-load-more>。"
+    "description": "uni-ui 加载更多，用于列表滚动加载时展示 loading 的各种状态。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-load-more>。"
   },
   "uni-ui nav-bar": {
     "prefix": ["uni-nav-bar", "<uni-nav-bar>", "UniNavBar", "<UniNavBar>"],
     "body": ["<uni-nav-bar :title=\"$1\">$2</uni-nav-bar>$0"],
-    "description": "uni-ui 导航栏。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-nav-bar>。"
+    "description": "uni-ui 导航栏，用于页面头部导航。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-nav-bar>。"
   },
   "uni-ui notice-bar": {
     "prefix": [
@@ -446,8 +446,13 @@
       "UniNoticeBar",
       "<UniNoticeBar>"
     ],
-    "body": ["<uni-notice-bar", "\t:text=\"$1\"", "\t${2:single}", "/>$0"],
-    "description": "uni-ui 通告栏。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-notice-bar>。"
+    "body": [
+      "<uni-notice-bar",
+      "\t:text=\"$1\"",
+      "\t${2|single,scrollable|}",
+      "/>$0"
+    ],
+    "description": "uni-ui 通告栏，用于循环滚动展示消息提醒。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-notice-bar>。"
   },
   "uni-ui number-box": {
     "prefix": [
@@ -457,7 +462,7 @@
       "<UniNumberBox>"
     ],
     "body": ["<uni-number-box", "\tv-model=\"$1\"", "\t@change=\"$2\"", "/>$0"],
-    "description": "uni-ui 数字输入框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-number-box>。"
+    "description": "uni-ui 数字输入框，带加减按钮。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-number-box>。"
   },
   "uni-ui pagination": {
     "prefix": [
@@ -474,7 +479,7 @@
       "\t@change=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 分页器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-pagination>。"
+    "description": "uni-ui 分页器，用于展示页码、请求数据等。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-pagination>。"
   },
   "uni-ui popup": {
     "prefix": ["uni-popup", "<uni-popup>", "UniPopup", "<UniPopup>"],
@@ -486,7 +491,7 @@
       "\t$2",
       "</uni-popup>$0"
     ],
-    "description": "uni-ui 弹出层。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
+    "description": "uni-ui 弹出层，可在应用中弹出消息提示、对话框等，支持上、下、左、右、居中弹出。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
   },
   "uni-ui popup-dialog": {
     "prefix": [
@@ -503,7 +508,7 @@
       "\t@confirm=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 弹出层对话框。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
+    "description": "uni-ui 弹出层对话框，支持提示和可输入两种模式。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
   },
   "uni-ui popup-message": {
     "prefix": [
@@ -518,7 +523,7 @@
       "\tmessage=\"$2\"",
       "/>$0"
     ],
-    "description": "uni-ui 弹出层提示信息。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
+    "description": "uni-ui 弹出层消息提示，显示一段时间后自动关闭。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
   },
   "uni-ui popup-share": {
     "prefix": [
@@ -528,22 +533,22 @@
       "<UniPopupShare>"
     ],
     "body": ["<uni-popup-share", "\ttitle=\"$1\"", "\t@select=\"$2\"", "/>$0"],
-    "description": "uni-ui 弹出层分享。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
+    "description": "uni-ui 弹出层分享，从底部弹出供用户选择分享渠道。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-popup>。"
   },
   "uni-ui rate": {
     "prefix": ["uni-rate", "<uni-rate>", "UniRate", "<UniRate>"],
     "body": ["<uni-rate", "\tv-model=\"$1\"", "\t@change=\"$2\"", "/>$0"],
-    "description": "uni-ui 评分。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-rate>。"
+    "description": "uni-ui 评分，多用于商品评价等场景，支持半星和禁用状态。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-rate>。"
   },
   "uni-ui row": {
     "prefix": ["uni-row", "<uni-row>", "UniRow", "<UniRow>"],
     "body": ["<uni-row>$1</uni-row>$0"],
-    "description": "uni-ui 布局行。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。"
+    "description": "uni-ui 布局行，配合 uni-col 使用，把屏幕分成 24 份做流式栅格布局。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。"
   },
   "uni-ui col": {
     "prefix": ["uni-col", "<uni-col>", "UniCol", "<UniCol>"],
     "body": ["<uni-col>$1</uni-col>$0"],
-    "description": "uni-ui 布局列。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。"
+    "description": "uni-ui 布局列，放在布局行里占指定份数的栅格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-row>。"
   },
   "uni-ui section": {
     "prefix": ["uni-section", "<uni-section>", "UniSection", "<UniSection>"],
@@ -570,7 +575,7 @@
       "\t@confirm=\"$2\"",
       "/>$0"
     ],
-    "description": "uni-ui 搜索栏。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-search-bar>。"
+    "description": "uni-ui 搜索栏，用于输入关键字并触发搜索。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-search-bar>。"
   },
   "uni-ui segmented-control": {
     "prefix": [
@@ -583,10 +588,10 @@
       "<uni-segmented-control",
       "\t:current=\"$1\"",
       "\t:values=\"$2\"",
-      "\t@click-item=\"$3\"",
+      "\t@clickItem=\"$3\"",
       "/>$0"
     ],
-    "description": "uni-ui 分段器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-segmented-control>。"
+    "description": "uni-ui 分段器，用于在不同视图之间切换。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-segmented-control>。"
   },
   "uni-ui steps": {
     "prefix": ["uni-steps", "<uni-steps>", "UniSteps", "<UniSteps>"],
@@ -597,7 +602,7 @@
       "\tdirection=\"${3|row,column|}\"",
       "/>$0"
     ],
-    "description": "uni-ui 步骤条。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-steps>。"
+    "description": "uni-ui 步骤条，常用于显示进度。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-steps>。"
   },
   "uni-ui swipe-action": {
     "prefix": [
@@ -616,7 +621,7 @@
       "\t</uni-swipe-action-item>",
       "</uni-swipe-action>$0"
     ],
-    "description": "uni-ui 滑动操作。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swipe-action>。"
+    "description": "uni-ui 滑动操作，通过滑动展示操作选项的容器。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swipe-action>。"
   },
   "uni-ui swipe-action-item": {
     "prefix": [
@@ -633,7 +638,7 @@
       "\t$3",
       "</uni-swipe-action-item>$0"
     ],
-    "description": "uni-ui 滑动操作项。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swipe-action>。"
+    "description": "uni-ui 滑动操作项，放在滑动操作里，向左或向右滑动显示按钮。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swipe-action>。"
   },
   "uni-ui swiper-dot": {
     "prefix": [
@@ -650,27 +655,27 @@
       "\t$3",
       "</uni-swiper-dot>$0"
     ],
-    "description": "uni-ui 轮播图指示点。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swiper-dot>。"
+    "description": "uni-ui 轮播图指示点，可自定义指示点的样式和显示内容。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-swiper-dot>。"
   },
   "uni-ui table": {
     "prefix": ["uni-table", "<uni-table>", "UniTable", "<UniTable>"],
     "body": ["<uni-table>", "\t$1", "</uni-table>$0"],
-    "description": "uni-table 表格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
+    "description": "uni-ui 表格，用于展示多条结构类似的数据。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
   },
   "uni-ui tr": {
     "prefix": ["uni-tr", "<uni-tr>", "UniTr", "<UniTr>"],
     "body": ["<uni-tr>", "\t$1", "</uni-tr>$0"],
-    "description": "uni-table 表格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
+    "description": "uni-ui 表格行，放在表格里，一行内包含表头或单元格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
   },
   "uni-ui th": {
     "prefix": ["uni-th", "<uni-th>", "UniTh", "<UniTh>"],
     "body": ["<uni-th>", "\t$1", "</uni-th>$0"],
-    "description": "uni-table 表格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
+    "description": "uni-ui 表格头，放在表格行里表示一列的表头。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
   },
   "uni-ui td": {
     "prefix": ["uni-td", "<uni-td>", "UniTd", "<UniTd>"],
     "body": ["<uni-td>$1</uni-td>$0"],
-    "description": "uni-table 表格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
+    "description": "uni-ui 单元格，放在表格行里表示一个数据格。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-table>。"
   },
   "uni-ui tag": {
     "prefix": ["uni-tag", "<uni-tag>", "UniTag", "<UniTag>"],
@@ -682,12 +687,12 @@
       "\t@click=\"$4\"",
       "/>$0"
     ],
-    "description": "uni-ui 标签。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tag>。"
+    "description": "uni-ui 标签，用于展示一个或多个文字标签，可点击切换选中状态。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tag>。"
   },
   "uni-ui title": {
     "prefix": ["uni-title", "<uni-title>", "UniTitle", "<UniTitle>"],
     "body": ["<uni-title title=\"$1\" />$0"],
-    "description": "uni-ui 标题。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-title>。"
+    "description": "uni-ui 标题，用于页面或区块标题，开启 uni 统计时会自动采集页面标题。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-title>。"
   },
   "uni-ui tooltip": {
     "prefix": ["uni-tooltip", "<uni-tooltip>", "UniTooltip", "<UniTooltip>"],
@@ -699,7 +704,7 @@
       "\t$3",
       "</uni-tooltip>$0"
     ],
-    "description": "uni-ui 文字提示。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tooltip>。"
+    "description": "uni-ui 文字提示，常用于展示鼠标悬浮时的提示信息。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-tooltip>。"
   },
   "uni-ui transition": {
     "prefix": [
@@ -709,6 +714,6 @@
       "<UniTransition>"
     ],
     "body": ["<uni-transition", "\t:mode-class=\"$1\"", "\t:show=\"$2\"", "/>"],
-    "description": "uni-ui 过渡动画。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-transition>。"
+    "description": "uni-ui 过渡动画，内置淡入淡出、滑动、缩放等动画，配合 show 控制显隐。更多信息查看 <https://uniapp.dcloud.net.cn/component/uniui/uni-transition>。"
   }
 }
