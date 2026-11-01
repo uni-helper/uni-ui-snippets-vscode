@@ -1,5 +1,5 @@
 <svg version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-  <title>logo</title>
+  <title>uni-ui-snippets-vscode logo</title>
   <g
     fill="none"
     stroke="#2B9939"
@@ -11,5 +11,5 @@
     <rect height="72" rx="18" width="72" x="140" y="44" />
     <rect height="72" rx="18" width="72" x="44" y="140" />
   </g>
-  <rect fill="#8ACB9B" height="72" rx="18" width="72" x="140" y="140" />
+  <rect fill="#2B9939" height="72" rx="18" width="72" x="140" y="140" />
 </svg>
